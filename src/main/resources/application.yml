@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: product-pulse
+  datasource:
+    url: jdbc:postgresql://product-pulse-db.cjga2agwgz6d.us-east-1.rds.amazonaws.com:5432/product-pulse-dev
+    username: postgres
+    password: Dhanesh#
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+server:
+  port: 9090
+
+
+
